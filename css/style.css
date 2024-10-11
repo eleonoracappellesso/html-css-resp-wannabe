@@ -133,6 +133,11 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0;
+    }
+
+    .col {
+        padding-bottom: 30px;
     }
 }
 
@@ -142,6 +147,10 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    img {
+        flex-shrink: 0;
     }
  }
 
@@ -156,5 +165,17 @@ img {
 
     .row .col {
         width: 100%;
+    }
+
+    .lessons p {
+        margin-bottom: 20px;
+    }
+
+    .why-us {
+        background-color: black;
+    }
+
+    .why-us h2 {
+        padding-top: 30px;
     }
  }
