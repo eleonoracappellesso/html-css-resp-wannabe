@@ -129,6 +129,7 @@ img {
  ************************************************/
 
 @media screen and (max-width: 1160px) {
+
     .lessons, .steps, .why-us {
         display: flex;
         justify-content: center;
@@ -139,6 +140,11 @@ img {
     .col {
         padding-bottom: 30px;
     }
+
+    .why-us h2 {
+        padding-top: 30px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -152,6 +158,7 @@ img {
     img {
         flex-shrink: 0;
     }
+
  }
 
  @media screen and (max-width: 576px) {
@@ -175,7 +182,4 @@ img {
         background-color: black;
     }
 
-    .why-us h2 {
-        padding-top: 30px;
-    }
  }
